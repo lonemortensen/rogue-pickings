@@ -1,0 +1,186 @@
+/***** BASE STYLES *****/
+
+body {
+    background: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {  
+    color: #000000;
+}
+
+/***** GRID *****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+    float: left;
+    width: 600px;
+}
+
+.third-width {
+    float: left;
+    width: 397px;
+}
+
+/***** HEADER *****/
+
+header {
+    height: 105px;
+}
+
+header h1 {
+    color: #000000;
+    font-size: 30px;
+    line-height: 23px;
+    padding: 45px 0px 40px 0px;
+    text-transform: uppercase;
+}
+
+header h1 span {
+    color: #77a466;
+}
+
+header nav {
+    float: right;
+    padding: 50px 0px 45px 0px;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a { 
+    color: #77a466;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 23px;
+    padding-left: 20px;
+}
+
+/***** WELCOME *****/
+
+#welcome {
+    clear: both;
+    height: 425px;
+}
+
+#welcome-img {
+    border-top: 3px solid #77a466;
+    border-bottom: 3px solid #77a466;
+    height: auto;
+}
+
+#welcome-txt {
+    height: auto;
+}
+
+#welcome h2 {
+    color: #77a466;
+    font-size: 18px;
+    line-height: 23px;
+    text-transform: uppercase;
+}
+
+#welcome p {
+    font-size: 16px;
+    line-height: 25px;
+}
+
+/***** POSTS *****/
+
+#posts h3 {  
+    color: #000000;
+    font-size: 12px;
+    line-height: 25px;
+    text-transform: uppercase;
+    padding-top: 10px;
+}  
+
+#specials, #reviews, #contact {
+    border-top: 1px solid #dedbdc; 
+    border-bottom: 1px solid #dedbdc;
+    height: 215px;
+    margin-top: 35px;
+}
+
+.border-left {
+    border-left: 1px solid #dedbdc;
+}
+
+.margin-posts {
+    margin-left: 30px;
+    margin-right: 35px;
+}
+
+/***** SPECIALS *****/
+
+#specials ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#specials ul li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#specials ul li a {   
+    color: #77a466;
+    font-size: 16px;
+    line-height: 18px;
+    text-decoration: none;
+}
+ 
+/***** REVIEWS *****/
+
+#reviews p {
+    font-size: 16px;
+    line-height: 21px;
+}
+
+/***** CONTACT *****/
+
+#contact ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#contact ul li {
+    color: #000000; 
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    margin-left: 30px;
+    margin-right: 40px;
+}
+
+/***** FOOTER *****/
+
+footer {
+    clear: both;
+    height: 80px;
+    padding-top: 25px;
+}
+
+#footer h2 {
+    color: #000000; 
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#footer h2 span {
+    color: #77a466;
+    font-family: 'Dancing Script', cursive;
+    font-weight: normal;
+    text-transform: lowercase;
+}
